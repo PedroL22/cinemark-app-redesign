@@ -9,20 +9,25 @@
     "preview": "vite preview",
     "lint": "biome lint --write",
     "format": "biome format --write",
-    "typecheck": "tsc -b --watch"
+    "typecheck": "tsc -b --watch",
+    "prepare": "husky"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^4.1.4"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
+    "@tailwindcss/postcss": "^4.1.4",
     "@types/node": "^22.15.3",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react-swc": "^3.8.0",
     "globals": "^16.0.0",
     "husky": "^9.1.7",
+    "postcss": "^8.5.3",
     "typescript": "~5.7.2",
     "vite": "^6.3.1"
   }
